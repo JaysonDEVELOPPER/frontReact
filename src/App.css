@@ -1,0 +1,42 @@
+Body {
+  background-color: #F8F9FA;
+  color: #212529;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+
+a {
+  color: #FD7E14;
+  text-decoration: none;
+}
+
+a :hover {
+  color: #F8F9FA;
+}
+
+
+.accordion-button {
+  background-color: #212529;
+  color: #F8F9FA;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+
+}
+
+.accordion-button:not(.collapsed) {
+  color: #212529;
+}
+
+
+
+.signupInvitation {
+
+  text-align: center;
+
+}

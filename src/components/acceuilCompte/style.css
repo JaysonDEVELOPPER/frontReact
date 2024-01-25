@@ -1,0 +1,39 @@
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Prend toute la hauteur de la fenêtre */
+  }
+  
+  .loader-dot {
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    background-color: rgb(0, 0, 0); /* Changez la couleur selon vos préférences */
+    border-radius: 50%;
+    animation: wave 1.5s infinite ease-in-out;
+  }
+  
+  /* Animation différente pour chaque point */
+  .loader-dot:nth-child(1) { animation-delay: 0s; }
+  .loader-dot:nth-child(2) { animation-delay: 0.1s; }
+  .loader-dot:nth-child(3) { animation-delay: 0.2s; }
+  
+  @keyframes wave {
+    0%, 60%, 100% {
+      transform: translateY(0);
+    }
+    30% {
+      transform: translateY(-15px);
+    }
+  }
+  
+
+  .center-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 1.5rem;
+    text-align: center;
+}
